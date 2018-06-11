@@ -4,11 +4,13 @@
   "description": "Collect cvs for digital agency",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "@des-de",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.5.1"
+    "axios": "^0.18.0",
+    "csvtojson": "^2.0.3"
   }
 }

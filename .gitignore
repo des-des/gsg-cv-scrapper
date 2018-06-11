@@ -1,2 +1,9 @@
 # node modules
 /node_modules
+
+# downloaded cvs
+/cvs/**
+!/cvs/.gitkeep
+
+# csv dump from google sheets
+developers.csv
